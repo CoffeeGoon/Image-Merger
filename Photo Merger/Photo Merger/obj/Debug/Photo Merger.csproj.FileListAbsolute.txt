@@ -1,0 +1,21 @@
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\MainWindow.g.cs
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Window1.g.cs
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\App.g.cs
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger_MarkupCompile.cache
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger_MarkupCompile.lref
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\bin\Debug\Photo Merger.exe.config
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\bin\Debug\Photo Merger.exe
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\bin\Debug\Photo Merger.pdb
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\MainWindow.baml
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Window1.baml
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger.g.resources
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo_Merger.Properties.Resources.resources
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger.csproj.GenerateResource.Cache
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger.csproj.CoreCompileInputs.cache
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger.exe
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger.pdb
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger.csprojResolveAssemblyReference.cache
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\bin\Debug\Photo Merger.exe.manifest
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\bin\Debug\Photo Merger.application
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger.exe.manifest
+C:\Users\Newborn Christenson\source\repos\Photo Merger\Photo Merger\obj\Debug\Photo Merger.application

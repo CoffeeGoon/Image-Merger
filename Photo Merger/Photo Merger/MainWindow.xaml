@@ -1,0 +1,53 @@
+﻿<Window x:Class="Photo_Merger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Photo_Merger"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="695" VerticalAlignment="Top" Width="792" Margin="0,74,0,0">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFB2525" Offset="0"/>
+                    <GradientStop Color="#FFF3B308" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+        </Grid>
+        <Border BorderBrush="#FFFF5404" BorderThickness="1" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="792">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="1"/>
+                    <GradientStop Color="#FFFF7400"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FFE7E8EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Border BorderBrush="Black" BorderThickness="1" Background="Red"/>
+        </Border>
+        <Label Content="      IMAGE MERGER" HorizontalAlignment="Left" Height="116" Margin="47,10,0,0" VerticalAlignment="Top" Width="639" FontFamily="HP Simplified" FontSize="80" FontWeight="Bold" Background="#00000000"/>
+        <Label Content="Image 1                                 Image 2" Margin="155,146,145,511" FontFamily="HP Simplified" FontWeight="Bold" FontSize="36"/>
+        <Image x:Name="ImageA" HorizontalAlignment="Left" Height="184" Margin="70,215,0,0" VerticalAlignment="Top" Width="296"/>
+        <Image x:Name="ImgB" HorizontalAlignment="Left" Height="184" Margin="428,215,0,0" VerticalAlignment="Top" Width="297"/>
+        <Button Content="Upload" HorizontalAlignment="Left" Margin="137,418,0,0" VerticalAlignment="Top" Width="156" Height="35" Click="Button_Click" FontSize="20">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCF0D0D" Offset="0"/>
+                    <GradientStop Color="#FFFF0A0A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Upload" HorizontalAlignment="Left" Margin="503,418,0,0" VerticalAlignment="Top" Width="156" Height="35" Click="Button_Click_1" FontSize="20">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCF0D0D" Offset="0"/>
+                    <GradientStop Color="#FFFF0A0A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Slider  Name="metricA" Maximum=".5" HorizontalAlignment="Left" Margin="137,467,0,0" VerticalAlignment="Top" Width="156" Background="#FF020000"/>
+        <Slider Name="metricB" Maximum=".5" HorizontalAlignment="Left" Margin="503,467,0,0" VerticalAlignment="Top" Width="156" Background="#FF110000"/>
+        <Button x:Name="outputbutton" Content="MERGE" HorizontalAlignment="Left" Margin="256,569,0,0" VerticalAlignment="Top" Width="280" Height="53" Click="Send_Data"  Background="#FF018EC3" FontSize="36" FontWeight="Bold"/>
+    </Grid>
+</Window>
